@@ -1,0 +1,14 @@
+# 排除源码和无关文件，只发布编译后的关键代码
+src/*.ts
+test/
+node_modules/
+.git/
+.gitignore
+.npmignore
+package-lock.json
+README.md
+LICENSE
+# 保留 dist 目录（编译输出）
+!dist/
+# 保留 package.json
+!package.json
