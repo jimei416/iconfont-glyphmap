@@ -1,6 +1,6 @@
 {
   "name": "iconfont-glyphmap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "将 iconfont CSS 文件自动转换为 react-native-vector-icons 所需的 glyphMap 对象。",
   "main": "src/index.js",
   "types": "dist/index.d.ts",
@@ -14,5 +14,13 @@
   "devDependencies": {
     "@types/node": "^24.2.0",
     "typescript": "^5.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimei416/iconfont-glyphmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimei416/iconfont-glyphmap/issues"
+  },
+  "homepage": "https://github.com/jimei416/iconfont-glyphmap#readme"
 }
